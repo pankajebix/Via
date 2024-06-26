@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="via.com" verbose="4">
+	<test name="Flight Booking Test">
+		<classes>
+			<class name="testFlight.LoginPageTest"></class>
+			<class name="testFlight.FlightBookPageTest"></class>
+		</classes>
+	</test>
+</suite>

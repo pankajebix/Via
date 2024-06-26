@@ -1,0 +1,20 @@
+2024-05-16 14:05:449 INFO  BaseClass:80 - chrome : is launched successfully
+2024-05-16 14:05:525 INFO  BaseClass:105 - Enter URL : https://test-eh.ebixexchange.com/login
+2024-05-16 14:05:94 INFO  BaseClass:120 - verifyLoginURL test is Started
+2024-05-16 14:05:150 INFO  LoginPage:62 - Verify URL
+2024-05-16 14:05:650 INFO  BaseClass:120 - verifyLoginPageTitle test is Started
+2024-05-16 14:05:656 INFO  LoginPage:67 - Verify login page Title
+2024-05-16 14:05:676 INFO  BaseClass:120 - verifyUserIdLabel test is Started
+2024-05-16 14:05:681 INFO  LoginPage:72 - Verify User ID Label
+2024-05-16 14:05:272 INFO  BaseClass:120 - verifyPasswordLabel test is Started
+2024-05-16 14:05:278 INFO  LoginPage:77 - Verify Password Label
+2024-05-16 14:05:353 INFO  BaseClass:120 - verifyLoginButtonText test is Started
+2024-05-16 14:05:359 INFO  LoginPage:82 - Verify Login Button Text
+2024-05-16 14:05:435 INFO  BaseClass:120 - verifyPoweredByText test is Started
+2024-05-16 14:05:447 INFO  LoginPage:87 - Verify Powered By Text
+2024-05-16 14:05:503 INFO  BaseClass:120 - doLogin test is Started
+2024-05-16 14:05:764 INFO  LoginPage:96 - Enter Username : pankaj.yadav
+2024-05-16 14:05:223 INFO  LoginPage:102 - Enter Password : Ebix@123
+2024-05-16 14:05:771 INFO  LoginPage:107 - Clicked on Login
+2024-05-16 14:05:17 INFO  BaseClass:120 - verifyUserLogin test is Started
+2024-05-16 14:05:21 INFO  LoginPage:118 - Verify User Login

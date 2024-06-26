@@ -19,7 +19,7 @@ public class SendEmailFlight {
 	public static void main(String[] args) {
 		// authentication info
 		final String username = "pankajyadavebix@gmail.com";
-		final String password = "yldn gptb vidg oehr";
+		final String password = "pdbz shul nfye sdni";
 		String fromEmail = "pankajyadavebix@gmail.com";
 		String toEmail = "tarun.kumar@via.com";
 		String toEmail2 = "nitish.manjarwar@ebix.com";

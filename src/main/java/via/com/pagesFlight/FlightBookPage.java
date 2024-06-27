@@ -114,7 +114,7 @@ public class FlightBookPage extends ReusableMethods {
 	@FindBy(xpath = "(//div[@class='optsDiv'])[1]/preceding-sibling::div[1]")
 	private WebElement suppilerNameFirstEle;
 
-	List<String> flightNameArrayList = new ArrayList<String>();
+	
 	
 	static DataFormatter formatter = new DataFormatter();
 
@@ -252,6 +252,7 @@ public class FlightBookPage extends ReusableMethods {
 	}
 
 	public int searchFlightStatus(String FlightName, String rowNumber) throws InterruptedException {
+		List<String> flightNameArrayList = new ArrayList<String>();
 		String flightNumberActual = null;
 		String supplierNameActual = null;
 		int flightFound = 0;
@@ -333,6 +334,7 @@ public class FlightBookPage extends ReusableMethods {
 				System.out.println("Search Status : "+"Pass");
 				System.out.println("Flight No. : "+flightNumberActual);
 				System.out.println("Supplier Name : "+supplierNameActual);
+				System.out.println("Flight Found : " + flightNameArrayList.toString());
 				
 			} else {
 				excUtil.setCellData("TestData", "Search Status", rowNumberDataUpdate, "Fail");
@@ -345,6 +347,7 @@ public class FlightBookPage extends ReusableMethods {
 				System.out.println("Search Status : "+"Fail");
 				System.out.println("Flight No. : "+"NA");
 				System.out.println("Supplier Name : "+"NA");
+				System.out.println("Flight Found : " + flightNameArrayList.toString());
 			}
 			// Assert.assertTrue(flightFound > 0);
 			
